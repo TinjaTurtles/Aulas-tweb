@@ -1,0 +1,19 @@
+span{
+    font-style: italic;
+}
+body{
+    background-color: #DDDDDD;
+}
+h1{
+    font-style: italic;
+    color: #158AC4;
+    text-transform: uppercase;
+}
+p{
+    color: #666666;
+}
+
+
+a:hover{
+    color: yellow;
+}

@@ -1,0 +1,23 @@
+      <h2> Your Stuff, anywhere</h2>
+    
+        <form action="mailto:tw@alunos.isec.pt" method="post">
+         
+        <fieldset>
+            <legend>MyProfile</legend>
+	       <input type="text" size="30" placeholder="First Name" name="c1" required autofocus maxlength="20"> <br><br>
+	       <input type="text" size="30" placeholder="Last Name" name="c2" required><br><br>
+	       <input type="email" size="30" placeholder="Email" name="c3" required><br><br>
+	       <input type="password" size="30" placeholder="Password" name="c4" required pattern="[A-Za-z]{3}[0-9]{3}"><br><br>
+        </fieldset>
+               
+            <textarea name="c5" placeholder="Enter text here ..." maxlength="150"></textarea> <br>
+            
+            <select name="s1">
+                <option value="1">Base Plan</option>
+                <option value="2">Intermediate Plan</option>
+                <option value="3">Premium Plan</option>
+            </select>
+            
+	       <input type="checkbox" required/>I Agree to Dropbox terms<br/><br/>
+	       <input type="submit" value="sign up"  />
+       </form>
